@@ -1,0 +1,108 @@
+/* Geral*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:Helvetica, sans-serif;
+    color: black;
+    border: none;
+}
+body {
+    background-image:url('../img/galaxy.jpg');
+    background-size: cover;
+}
+textarea:focus, input:focus{
+    outline: none;
+}   
+ a, label {
+    font-size: .8rem;
+ }
+ a:hover {
+     color: blue;
+ }
+ /* Container Login */
+
+  .login-container {
+      background-color: rgb(245, 255, 254);
+      width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 20px 30px;
+      margin-top: 10vh;
+      border-radius: 12px;
+      text-align: center;
+
+  }
+  /*formulário*/
+
+  form{
+      margin-top: 30px;
+      margin-bottom: 40px;
+  }
+  label, input{
+      display: block;
+      width: 100%;
+      text-align: left;
+  }
+  label{
+      font-weight: bolder;
+  }
+  input {
+        border-bottom: 1px solid#32323232;
+        padding: 10px;
+        font-size: 1rem;
+        margin-bottom: 20px;    
+  }
+  input:focus{
+      border-bottom: solid#8522c7
+
+  }
+  #forgot-pass{
+      text-align: right;
+      display: block;
+
+  }
+   input[type="submit"]{
+       text-align: center;
+       text-transform: uppercase;
+       font-weight: bolder;
+       border:none;
+       height: 40px;
+       border-radius: 15px;
+       margin-top: 25px;
+       color: rgb(232, 220, 255);
+       background-color: rgb(118, 54, 179);
+       cursor: pointer;
+   }
+   input[type="submit"]:hover {
+       background-color: rgb(72, 0, 100);
+       transition:0.7s;
+   }
+   #social-container, #social-container p{
+       margin-bottom: 20px;
+    }
+
+   #social-container i {
+       height: 40px;
+       width: 40px;
+       border-radius: 15px;
+       padding: 10px 10px;
+       color: floralwhite;
+       margin: 0 5px;
+       cursor: pointer;
+
+   }
+   .fa-facebook-f {
+       background-color: rgb(74, 50, 212);
+   }
+   .fa-linkedin {
+       background-color: rgb(50, 167, 235);
+   }
+   .fa-google {
+       background-color: rgb(225, 129, 238);
+   }
+   .register-container p{
+       padding-bottom: 15px;
+   }
+
+
